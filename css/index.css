@@ -1,0 +1,34 @@
+body{
+	margin:0;
+	font-family: Arial;
+}
+#controls{
+	width:300px;
+	position: absolute;
+	top:0;
+	bottom:0;
+	background: #383836;
+}
+#drawregion{
+	position: absolute;
+	left:300px;
+	right:0;
+	top:0;
+	bottom:0;
+	background: url(../imgs/packed-4.png);
+}
+#canvas{
+	box-shadow:  0 0 3px black;
+	display: block;
+	margin:0 auto;
+}
+#controls{
+	color:white;
+	font-size:34px;
+}
+.active{
+	color:orange;
+}
+*{
+	cursor:pointer;
+}
